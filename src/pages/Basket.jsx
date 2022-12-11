@@ -7,6 +7,7 @@ const Basket = () => {
   const { basket } = useSelector(state => state.products)
   const dispatch = useDispatch()
 
+  
   const addToBasketFunc = (item) => {
     dispatch(addToBasket(item))
   }
